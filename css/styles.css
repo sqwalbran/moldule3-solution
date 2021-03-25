@@ -1,0 +1,105 @@
+#main-content{
+  margin:20px auto;
+}
+
+#main-content h2{
+  font-size:200%;
+  font-weight:bold;
+  margin-bottom:25px;
+  margin-top:25px;
+  line-height:inherit;
+  text-align:center;
+}
+#main-content p{
+  background-color:#c0c0c0;
+}
+.navbar-header{
+  background-color:#add8e6;
+  height:75px;
+}
+.navbar-brand h1{
+  float:left;
+  font-size:4vw;
+  font-weight:bold;
+  margin-bottom:25px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  background-color:yellow;
+}
+.icon-bar span{
+  border:1px solid black;
+}
+#nav-list{
+  font-size:1.5em;
+  font-weight:bold;
+}
+#nav-list a{
+  text-align:center;
+}
+#nav-list a:hover{
+  background-color:#e7e7e7;
+}
+
+.menu{
+background-color:#c0c0c0;
+height:1200px;
+padding:20px;
+}
+.menu-header h3{
+  font-size:90%;
+  font-weight:bold;
+}
+
+/* settings for extra small width */
+@media(max-width:767px){
+  #collapsable-nav li a{
+  border:1px solid #000;
+  background-color:#ffff00;
+}
+}
+.navbar-brand h1 { /* Restaurant name */
+  padding-bottom: 5px;
+  float:left;
+  font-size: 4vw;
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+/* setting for small width */
+@media(min-width:768px) and (max-width:991px){
+  .navbar-brand h1 { /* Restaurant name */
+    padding-bottom: 15px;
+    float:left;
+    font-size: 4vw;
+      position:absolute;
+      top:10px;
+      left:10px;
+  }
+}
+/* setting for medium width */
+@media(min-width:992px) and (max-width:1199px){
+  .navbar-brand h1 { /* Restaurant name */
+    padding-bottom: 15px;
+    float:left;
+    font-size: 3vw;
+    position:absolute;
+    top:10px;
+    left:10px;
+  }
+}
+/* setting for large width */
+@media(min-width:1200px){
+  .navbar-brand h1 { /* Restaurant name */
+    padding-bottom: 15px;
+    float:left;
+    font-size: 3vw;
+    position:absolute;
+    top:10px;
+    left:10px;
+  }
+}
